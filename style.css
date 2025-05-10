@@ -1,0 +1,43 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Event Handling */
+.hover-box {
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+
+/* Interactive Elements */
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* Tabs */
+.tabContent {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+/* Form Validation */
+.error {
+    color: red;
+    font-size: 0.9em;
+}
